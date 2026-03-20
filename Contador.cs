@@ -4,18 +4,20 @@ class Contador
 {
     private int Valor;
 
-    public Contador()
+    public int Contador()
     {
         Valor = 0;
     }
 
-    public void Incrementar()
+    public int Incrementar()
     {
         Valor++;
+        return Valor;
     }
 
-    public void Decrementar()
+    public int  Decrementar()
     {
         Valor--;
+        return Valor;
     }
 }

@@ -1,7 +1,8 @@
 class Gato : ISonido
 {
-    public void HacerSonido()
+    public string HacerSonido()
     {
         Console.WriteLine("El gato hace: Miau");
+        return "Miau";
     }
 }

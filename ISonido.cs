@@ -2,5 +2,5 @@
 using System;
 interface ISonido
 {
-    void HacerSonido();
+    public string HacerSonido();
 }

@@ -9,7 +9,7 @@ class CuentaBancaria
         Saldo = saldoInicial;
     }
 
-    public void Depositar(double cantidad)
+    public double Depositar(double cantidad)
     {
         if (cantidad > 0)
         {
@@ -20,6 +20,7 @@ class CuentaBancaria
         {
             Console.WriteLine("Cantidad a depositar debe ser mayor a 0.");
         }
+        return Saldo;
     }
     public bool Retirar(double cantidad)
     {

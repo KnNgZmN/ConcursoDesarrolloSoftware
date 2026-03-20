@@ -1,7 +1,8 @@
 class perro : ISonido
 {
-    public void HacerSonido()
+    public string HacerSonido()
     {
         Console.WriteLine("El perro hace: Guau");
+        return "Guau";
     }
 }

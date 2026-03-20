@@ -1,7 +1,8 @@
 class Vaca : ISonido
 {
-    public void HacerSonido()
+    public string HacerSonido()
     {
         Console.WriteLine("La vaca hace: Muu");
+        return "Muu";
     }
 }
